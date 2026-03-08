@@ -1,0 +1,16 @@
+# Data Processing
+pandas==2.2.2
+numpy==2.0.0
+tqdm==4.67.3
+
+# ANN implementing
+annoy==1.17.3
+
+# Model Inference (OpenAI API)
+openai==2.21.0
+
+# Academic/HuggingFace Models (Optional: if you plan to use SPECTER, ModernBERT, etc.)
+# sentence-transformers==5.2.3
+# transformers==5.2.0
+# torch==2.8.0+cu128
+

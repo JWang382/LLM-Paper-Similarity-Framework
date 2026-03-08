@@ -1,0 +1,4 @@
+embeddings/
+Annoy/
+__pycache__/
+.DS_Store
