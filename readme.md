@@ -11,7 +11,7 @@ Seanns
  ┃ ┣ 02_build_index.py        # Stage 2: ANN Construction via Annoy
  ┃ ┗ 03_eval_retrieval.py     # Stage 3: Retrieval Evaluation
  ┣ data
- ┃ ┗ top_cited.csv            # [Input] Sub-corpus (Title, Abstract...)
+ ┃ ┗ per_journal.csv            # [Input] Sub-corpus (Title, Abstract...)
  ┣ embeddings                 # [Generated] Store .npy files
  ┣ Annoy                      # [Generated] Store .ann files
  ┣ requirements.txt           # Environment dependencies
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### 2. Data Preparation
 
-Place your metadata file in `data/top_cited.csv`. The CSV should at least contain the following columns:
+Place your metadata file in `data/per_journal.csv`. The CSV should at least contain the following columns:
 
 * `title`: The title used for embedding generation.
 * `abstract`: Paper abstract.
